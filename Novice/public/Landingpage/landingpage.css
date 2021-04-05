@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700;800&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: "Aileron", sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar-custom {
+    background-color: #364547;
+    display:flex;
+    justify-content:space-between; 
+    padding:5px;
+}
+
+.logo {
+    height: 60px;
+    padding-left: 20px;
+}
+
+
+.logo2 {
+    height: 120px;
+    padding-left: 20px;
+}
+
+.btn-login {
+	width: 100px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white !important;
+    cursor: pointer;
+    background-color:#FFB037;
+}
+
+.btn-login:hover {
+	background: #007bff;
+	border-radius: 70px;
+   
+}
+
+.btn-login:focus, .btn:active {
+	background: white;
+    outline:none;
+    box-shadow: none;
+	
+}
+
+.btn-signup {
+    width: 100px;
+    border-radius: 30px;
+	border-color: blue;
+    margin: 0px 25px 0px 20px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white !important;
+    cursor: pointer;
+    background-color: FFB037;
+}
+
+.btn-signup:hover {
+	background: #FFB037;
+	border-radius: 70px;
+    color: #002e89;
+}
+
+.backtotop {
+    text-align:center;
+    width: 130px;
+    border-radius: 30px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white !important;
+    cursor: pointer;
+    background-color: #2F5D62;
+}
+
+.backtotop:hover{
+	background: #007bff;
+	border-radius: 70px;
+    color: #002e89;
+}
+
+.btn-taketour {
+    float: right;
+    width: 130px;
+    margin: 0px 60px 0px 20px;
+    border-radius: 30px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white !important;
+    cursor: pointer;
+    background-color: #2F5D62;
+
+}
+
+.btn-taketour:hover{
+	background: #007bff;
+	border-radius: 70px;
+    color: #002e89;
+}
+
+
+.fixed {
+    background-image: url(../Pictures/novicebg.png);
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.intro {
+    margin: 0 60px 0 0;
+    padding: 50px 0 0 0;
+    font-size: 95px;
+    font-weight: 800;
+    color: white;
+    text-align:right;
+}
+.subintro {
+    text-align: right;
+    margin: 10px 60px;
+    font-size: 25px;
+    font-weight: 200;
+    color: white;
+}
+
+.subintro2 {
+    text-align: top-left-side;
+    margin: 10px 60px;
+    font-size: 25px;
+    font-weight: 200;
+    color: white;
+}
+
+.title1 {
+	font-size: 45px;
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #364547;
+}
+
+
+
+
+.container-top{
+	background-color: #E0EADF;  
+}
+
+
+
+.top{
+    display:flex;
+    margin-bottom: 0px;
+    justify-content:center;
+}
+
+.container-fluid {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../Pictures/novicebg.png);
+    /* opacity: 50%; */
+    /* ../Pictures/novicebg.png */
+}
+
+li {
+	text-align: left;
+    margin: 10px 0 0 0;
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+}
+
+.titleright {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+
+}
+
+
+.col-md-7 {
+	background-color:0 ;
+    padding-right: 0;
+    padding-left: 0;
+}
+.features{
+    padding:50px 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #0079bf;
+}
+.about {
+    text-align:center;
+    margin: 10px 60px 0 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+.fillup {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	left: 117px;
+    top: 170px;
+    align-items: left;
+    justify-content: left;
+}
+
+.form-signin {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    max-width: 500px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50px;
+    border-color: #2F5D62;
+    background-color: #FFB037;
+    padding: 50px 100px;
+}
+
+
+.form-signin .form-control {
+     position: relative;
+     box-sizing: border-box;
+     height: auto;
+     padding: 10px;
+     font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+     z-index: -10;
+}
+
+.layn {
+    font-weight: 600;
+    border: 2px solid #2F5D62;
+    margin-bottom: 10px;
+	width: 300px;
+    height: 0px;
+}
+
+.title2 {
+    font-size: 25px;
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    text-align: left;
+    color: #2F5D62;
+}
+
+.pp {
+    font-size: 20px;
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    text-align: left;
+    color: #2F5D62;
+}
+

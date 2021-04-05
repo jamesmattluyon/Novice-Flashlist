@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url("../Pictures/novicebg.png");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.fillup {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 500px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50px;
+    border-color: #2F5D62;
+    background-color: #FFB037;
+    padding: 50px 100px;
+}
+
+
+.form-signin .form-control {
+     position: relative;
+     box-sizing: border-box;
+     height: auto;
+     padding: 10px;
+     font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+     z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    }
+
+.logo{
+    width:300px;
+}
+
+.logocon{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.title1 {
+    font-size: 45px;
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #2F5D62;
+}
+
+.btn {
+    background-color: #2F5D62;
+    margin-top: 15px;
+}
+.already {
+    color: #2F5D62;
+    margin:5px;
+}
+.checkbox{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.title2 {
+    font-size: 20px;
+    font-family: "Dosis", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: #2F5D62;
+}
+
+.btn-signup {
+    width: 100px;
+    border-radius: 90px;
+	border-color: blue;
+    margin: 0px 0px 20px 0px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white !important;
+    cursor: pointer;
+}
+
+.btn-signup:hover {
+	background: #007bff;
+	border-radius: 70px;
+}

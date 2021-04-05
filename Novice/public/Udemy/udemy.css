@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700;800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Aileron", sans-serif;
+  overflow-x: hidden;
+  font-size: 1rem;
+  background: url(../Pictures/novicebg.png) no-repeat;
+  background-size: cover;
+}
+
+header{
+  background-color: #364547;
+}
+
+
+
+button{
+  padding: 8px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background: whitesmoke;
+}
+
+button:hover{
+  background-color:  #007bff;
+  color: black;
+}
+
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 952px){
+  .logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  .navbar ul li a {
+    font-size: 16px;
+
+  }
+}
+
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: url(../Pictures/novicebg.png) no-repeat; 
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  .navbar ul li {
+    display: block;
+    margin: 50px 0;
+   line-height: 30px;
+  }
+  .navbar ul li a {
+    font-size: 20px;
+  }
+
+  .navbar ul li a.active,a:hover{
+    background: #FFB037;
+    transition: .5s;
+  }
+  
+  #check:checked ~ ul {
+    left: 0;
+  }
+
+}
+
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  padding: 20px 0;
+  background: #fff;
+}
+
+.navbar {
+	height: 80px;
+	width: 100%;
+}
+
+
+.logo {
+    height: 90px;
+    padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+
+.navbar ul{
+  font-family: "Dosis", sans-serif;
+	float: right;
+	margin-right: 20px;
+	font-size: 20px;
+  font-weight: 700;
+}
+
+.navbar ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: -10px 5px;
+}
+
+.navbar ul li a{
+	color: white !important; 
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 50px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+a.active {
+	background: #FFB037;
+}
+
+
+.navbar ul li a.active,a:hover{
+	background: #FFB037;
+	transition: .5s;
+}
+
+.nav button{
+  font-family: inherit;
+
+}
+
+.nav {
+	background-color: green;
+}
+
+.container{
+  width: 95%;
+  
+  margin-right: -30px;
+}
+
+
+.container2{
+  font-size: 15px;
+  font-family: "Dosis", sans-serif;
+  color: lime;
+  padding: 50px 50px;
+  float: right;
+}
+
+.container2 ul{
+  text-align: center;
+}
+
+.container1 {
+    font-family: "Dosis", sans-serif;
+    text-align: left;
+    font-weight: bolder;
+	  color: white;
+    width: 100%;
+    max-width: 800px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50px;
+    border-color: #2F5D62;
+    background-color: #FFB037;
+    padding: 50px 50px;
+    padding-bottom: 50px;
+}
+
+.container li {
+  font-size: 25px;
+}
+
+.container h1{
+  font-size: 40px;
+  color: #2F5D62;
+}
+
+
+.container ul li a{
+  font-family: "Dosis", sans-serif;
+	color: white !important; 
+	font-size: 25x;
+	padding: 7px 13px;
+	border-radius: 50px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+
+.container ul li a:hover{
+	background:#364547;
+	transition: .5s;
+}
+
+.navbar h2{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  float: left;
+  color: #ffb037;
+}
+
+.navbar span{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+}
